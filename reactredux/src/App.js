@@ -5,15 +5,19 @@ import { Provider } from 'react-redux';
 import store from './components/redux/store';
 import HookContainer from './components/HookContainer';
 import BuggerBox from './components/redux/BuggerBox';
+import CustomerChoice from './components/CustomerChoice';
+import CustomHookApicall from './components/CustomHookApicall';
 
 function App() {
 
   return (
     <div >
       <Provider store={store}>
-        <PizzaBox />
+        {/* <PizzaBox />
         <BuggerBox />
-        <HookContainer />
+        // <HookContainer /> */}
+
+        <CustomHookApicall />
       </Provider>
     </div>
   );

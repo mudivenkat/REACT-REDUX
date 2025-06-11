@@ -4,7 +4,6 @@ import { orderPizza } from './redux/pizza/PizzaAction'
 import { connect } from 'react-redux'
 
 function PizzaBox(props) {
-  console.log(props);
   const { numberOfPizzas, orderPizza } = props;
 
   return (

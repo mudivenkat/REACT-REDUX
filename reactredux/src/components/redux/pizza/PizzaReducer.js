@@ -10,7 +10,7 @@ const pizzaReducer = (state = initialState, action) => {
     case ORDER_PIZZA:
       return {
         ...state,
-        numOfPizzas: state.numOfPizzas - 1
+        numOfPizzas: state.numOfPizzas - action.payload
 
       }
     default:

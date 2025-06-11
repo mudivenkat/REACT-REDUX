@@ -2,7 +2,6 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { orderBugger } from './bugger/BuggerActions'
 function BuggerBox(props) {
-  console.log(props,"burger")
   return (
     <div className='container'>
       <h2 className='text'>Number of  Bugger is :{props.buggerCount} </h2>

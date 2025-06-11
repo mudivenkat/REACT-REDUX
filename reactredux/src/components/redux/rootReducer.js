@@ -7,4 +7,4 @@ export const rootReducer = combineReducers(
     burger: buggerReducer,
     pizza: pizzaReducer
   }
-)
+);
